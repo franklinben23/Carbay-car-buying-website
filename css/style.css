@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: "Gotham Rounded Light";
+  src: url(../fonts/GothamRoundedLight.otf);
+}
+
+@font-face {
+  font-family: "Helvetica Light";
+  src: url(../fonts/HelveticaNeueCyr-Light.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Medium";
+  src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
 main {
   background-color: #fafafa;
 }
@@ -69,6 +94,7 @@ nav {
 }
 
 .section-cont .main-story {
+  box-shadow: 0 1px 3px rgba(192, 190, 190, 0.52);
   border: solid 0.5px #ddd;
   background-color: white;
   margin-top: 30px;
