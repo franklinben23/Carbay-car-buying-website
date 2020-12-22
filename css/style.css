@@ -44,7 +44,7 @@ nav {
 }
 
 .other-nav-items a {
-  font-size: 15px;
+  font-size: 12.3px;
   font-family: "Gotham Rounded Light", san-serif;
   color: #888;
   padding: 5px 0 0 17px;
@@ -91,6 +91,7 @@ nav {
 
 .section-cont {
   padding: 0 30px 0 30px;
+  margin-bottom: 30px;
 }
 
 .section-cont .main-story {
@@ -127,7 +128,7 @@ nav {
 
 .section-cont .main-story .place {
   font-size: 18px;
-  font-family: "Gotham Rounded Light", san-serif;
+  font-family: "Gotham Bold", san-serif;
   color: #383838;
 }
 
@@ -144,47 +145,52 @@ nav {
   padding-right: 10px;
 }
 
-.top-content {
+footer {
+  border-top: 0.2px lightgrey solid;
+  margin-top: 20px;
+}
+
+footer .top-content {
   max-width: 250px;
   margin: auto;
   text-align: justify;
 }
 
-.top-content-text {
+footer .top-content-text {
   font-size: 14px;
   font-family: "Helvetica Medium", san-serif;
   color: #888;
 }
 
-.nav-cat {
+footer .nav-cat {
   max-width: 280px;
   padding-top: 20px;
 }
 
-.nav-cat .footer-sub {
+footer .nav-cat .footer-sub {
   color: #d35266;
   font-family: "Gotham Rounded Light", san-serif;
   border-bottom: 0.2px #d35266 solid;
   font-size: 18px;
 }
 
-.nav-cat ul {
+footer .nav-cat ul {
   list-style: none;
   padding: 0 0 0 0;
 }
 
-.nav-cat a {
+footer .nav-cat a {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #888;
 }
 
-.lower-select {
+footer .lower-select {
   max-width: 290px;
   margin: auto;
 }
 
-.lower-select .white-btn {
+footer .lower-select .white-btn {
   width: 80px;
   color: #383838;
   background-color: #fff;
@@ -194,21 +200,21 @@ nav {
   border-radius: 3px;
 }
 
-.lower-select .country {
+footer .lower-select .country {
   color: #d35266;
   font-size: 18px;
   font-family: "Helvetica Medium", san-serif;
 }
 
-.lowest {
+footer .lowest {
   margin-top: 30px;
   border-top: 0.3px lightgrey solid;
 }
 
-.lowest p {
+footer .lowest p {
   color: #888;
   font-family: "Gotham Rounded Light", san-serif;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
   padding: 20px 10px 0 10px;
 }

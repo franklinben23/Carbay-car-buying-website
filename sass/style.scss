@@ -19,7 +19,7 @@ nav {
   padding-left: 20px;
 
   a {
-    font-size: 15px;
+    font-size: 12.3px;
     font-family: $gotham-light;
     color: $primary-gray;
     padding: 5px 0 0 17px;
@@ -63,6 +63,7 @@ nav {
 
 .section-cont {
   padding: 0 30px 0 30px;
+  margin-bottom: 30px;
   .main-story {
     box-shadow: 0 1px 3px rgba(192, 190, 190, 0.52);
     border: solid 0.5px #ddd;
@@ -91,7 +92,7 @@ nav {
     }
     .place {
       font-size: 18px;
-      font-family: $gotham-light;
+      font-family: $gotham-bold;
       color: $primary-black;
     }
     .plus-sign {
@@ -108,63 +109,65 @@ nav {
   }
 }
 
-.top-content {
-  max-width: 250px;
-  margin: auto;
-  text-align: justify;
-  &-text {
-    font-size: 14px;
-    font-family: $helvetica-m;
-    color: $primary-gray;
+footer {
+  border-top: 0.2px lightgrey solid;
+  margin-top: 20px;
+  .top-content {
+    max-width: 250px;
+    margin: auto;
+    text-align: justify;
+    &-text {
+      font-size: 14px;
+      font-family: $helvetica-m;
+      color: $primary-gray;
+    }
   }
-}
-
-.nav-cat {
-  max-width: 280px;
-  padding-top: 20px;
-  .footer-sub {
-    color: $main-color;
-    font-family: $gotham-light;
-    border-bottom: 0.2px $main-color solid;
-    font-size: 18px;
+  .nav-cat {
+    max-width: 280px;
+    padding-top: 20px;
+    .footer-sub {
+      color: $main-color;
+      font-family: $gotham-light;
+      border-bottom: 0.2px $main-color solid;
+      font-size: 18px;
+    }
+    ul {
+      list-style: none;
+      padding: 0 0 0 0;
+    }
+    a {
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $primary-gray;
+    }
   }
-  ul {
-    list-style: none;
-    padding: 0 0 0 0;
+  .lower-select {
+    max-width: 290px;
+    margin: auto;
+    .white-btn {
+      width: 80px;
+      color: #383838;
+      background-color: #fff;
+      padding: 5px;
+      font-family: "Helvetica Medium", san-serif;
+      border: #888 1px solid;
+      border-radius: 3px;
+    }
+    .country {
+      color: $main-color;
+      font-size: 18px;
+      font-family: $helvetica-m;
+    }
   }
-  a {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: $primary-gray;
-  }
-}
-.lower-select {
-  max-width: 290px;
-  margin: auto;
-  .white-btn {
-    width: 80px;
-    color: #383838;
-    background-color: #fff;
-    padding: 5px;
-    font-family: "Helvetica Medium", san-serif;
-    border: #888 1px solid;
-    border-radius: 3px;
-  }
-  .country {
-    color: $main-color;
-    font-size: 18px;
-    font-family: $helvetica-m;
-  }
-}
-
-.lowest {
-  margin-top: 30px;
-  border-top: 0.3px lightgrey solid;
-  p {
-    color: $primary-gray;
-    font-family: $gotham-light;
-    font-size: 18px;
-    text-align: center;
-    padding: 20px 10px 0 10px;
+  .lowest {
+    margin-top: 30px;
+    border-top: 0.3px lightgrey solid;
+    p {
+      color: $primary-gray;
+      font-family: $gotham-light;
+      font-size: 15px;
+      text-align: center;
+      padding: 20px 10px 0 10px;
+    }
   }
 }
