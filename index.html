@@ -17,8 +17,8 @@
     />
   </head>
   <body>
-    <nav class="d-flex">
-      <div class="nav-left d-flex w-100">
+    <nav class="d-flex justify-content-between">
+      <div class="nav-left d-flex">
         <div class="nav-logo-cont">
           <img src="./images/carr-logo.png" alt="car-logo" />
         </div>
@@ -37,6 +37,12 @@
           </a>
           <a href="#" class="d-none d-md-block nav-bottom"> Post an AD </a>
         </div>
+      </div>
+
+      <div class="nav-right d-none d-lg-flex align-items-center">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <p>Moe Lester</p>
+        <img src="./images/user.jpg" alt="img" />
       </div>
     </nav>
 
@@ -349,7 +355,7 @@
           </div>
 
           <div class="main-story">
-            <img src="./images/pickup/ram.jpg" alt="g500-img" />
+            <img src="./images/pickup/r2.jpg" alt="g500-img" />
             <div class="main-story-description">
               New Ram pickup trucks! Luxury combines with reliability. Ready for
               order at TexasRam!!
@@ -357,7 +363,7 @@
             <div class="year">2021+</div>
             <div class="location">
               location:
-              <p class="place d-inline">Dallas, Texas</p>
+              <p class="place d-inline">Texas</p>
             </div>
             <div class="lower-items d-flex justify-content-between">
               <p class="plus-sign">+</p>
@@ -383,7 +389,7 @@
           </div>
 
           <div class="main-story">
-            <img src="./images/pickup/raptor.jpg" alt="img" />
+            <img src="./images/pickup/r3.jpg" alt="img" />
             <div class="main-story-description">
               Ford Raptors!!! The off-Road monster you've come to love, at a
               novel discounted price!
@@ -391,7 +397,7 @@
             <div class="year">up to 2020</div>
             <div class="location">
               location:
-              <p class="place d-inline">High hills, Colorado</p>
+              <p class="place d-inline">Colorado</p>
             </div>
             <div class="lower-items d-flex justify-content-between">
               <p class="plus-sign">+</p>
@@ -400,7 +406,7 @@
           </div>
 
           <div class="main-story">
-            <img src="./images/pickup/tacoma.jpg" alt="img" />
+            <img src="./images/pickup/t2.jpg" alt="img" />
             <div class="main-story-description">
               Toyota Tacoma 2020, Trd's pro and Platinum specials, gas and
               diesel options.
@@ -425,7 +431,7 @@
             <div class="year">2019</div>
             <div class="location">
               location:
-              <p class="place d-inline">New york, New York</p>
+              <p class="place d-inline">New York</p>
             </div>
             <div class="lower-items d-flex justify-content-between">
               <p class="plus-sign">+</p>
@@ -437,60 +443,61 @@
     </main>
 
     <footer>
-      <div class="top-content d-flex flex-column">
-        <img
-          src="./images/carr-logo.png"
-          width="75px"
-          class="d-block align-self-center"
-          alt="car-logo"
-        />
-        <div class="top-content-text align-self-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-          explicabo eligendi iure in, sunt nemo delectus dolorem, sit veniam
-          odit quis ex aut labore ipsa molestiae dolor assumenda voluptas,
-          tenetur vero vitae illum repellendus ea saepe? Quis nulla, voluptatum
-          repellendus animi eaque, culpa a ex itaque aliquam atque ullam
-          aliquid?
+      <div class="footer-cont d-md-flex">
+        <div class="top-content d-flex flex-column">
+          <img
+            src="./images/carr-logo.png"
+            width="75px"
+            class="d-block align-self-center"
+            alt="car-logo"
+          />
+          <div class="top-content-text align-self-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            explicabo eligendi iure in, sunt nemo delectus dolorem, sit veniam
+            odit quis ex aut labore ipsa molestiae dolor assumenda voluptas,
+            tenetur vero vitae illum repellendus ea saepe? Quis nulla,
+            voluptatum repellendus animi eaque, culpa a ex itaque aliquam atque
+            ullam aliquid?
+          </div>
+        </div>
+
+        <div class="nav-cat d-flex m-auto justify-content-between">
+          <div class="nav p-2">
+            <ul>
+              <li><div class="footer-sub">Navigation</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Sign In</a></li>
+              <li><a href="#"> Sign Up</a></li>
+              <li><a href="#"> Terms & Conditions</a></li>
+              <li><a href="#"> FAQ</a></li>
+              <li><a href="#"> Help</a></li>
+            </ul>
+          </div>
+
+          <div class="cat p-2">
+            <ul>
+              <li><div class="footer-sub">Categories</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Cars</a></li>
+              <li><a href="#"> Suv's</a></li>
+              <li><a href="#"> PickUps</a></li>
+              <li><a href="#"> Watercrafts</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lower-select d-flex flex-column">
+          <div class="country p-2">
+            Country <a href="#" class="white-btn"> U.S.</a>
+          </div>
+          <div class="country p-2">
+            Language <a href="#" class="white-btn"> English</a>
+          </div>
+          <div class="country p-2">
+            Currency <a href="#" class="white-btn"> U.S Dollars</a>
+          </div>
         </div>
       </div>
-
-      <div class="nav-cat d-flex m-auto justify-content-between">
-        <div class="nav">
-          <ul>
-            <li><div class="footer-sub">Navigation</div></li>
-            <li><a href="#"> Home</a></li>
-            <li><a href="#"> Sign In</a></li>
-            <li><a href="#"> Sign Up</a></li>
-            <li><a href="#"> Terms & Conditions</a></li>
-            <li><a href="#"> FAQ</a></li>
-            <li><a href="#"> Help</a></li>
-          </ul>
-        </div>
-
-        <div class="cat">
-          <ul>
-            <li><div class="footer-sub">Categories</div></li>
-            <li><a href="#"> Home</a></li>
-            <li><a href="#"> Cars</a></li>
-            <li><a href="#"> Suv's</a></li>
-            <li><a href="#"> PickUps</a></li>
-            <li><a href="#"> Watercrafts</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="lower-select d-flex flex-column">
-        <div class="country p-2">
-          Country <a href="#" class="white-btn"> U.S.</a>
-        </div>
-        <div class="country p-2">
-          Language <a href="#" class="white-btn"> English</a>
-        </div>
-        <div class="country p-2">
-          Currency <a href="#" class="white-btn"> U.S Dollars</a>
-        </div>
-      </div>
-
       <div class="lowest">
         <p>
           Copyright© 2015 Ampert.com. All Rights Reserved. Designed by Mohammed

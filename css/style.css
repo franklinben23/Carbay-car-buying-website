@@ -28,6 +28,29 @@
   src: url(../fonts/Audiowide-Regular.ttf);
 }
 
+@media only screen and (min-width: 530px) {
+  .section-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+  .main-story-description {
+    height: 186px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-cont {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-cont {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 main {
   background-color: #fafafa;
 }
@@ -66,6 +89,23 @@ nav {
   margin-left: 10px;
   padding: 5px 8px 5px 8px;
   border-radius: 5px;
+}
+
+.nav-right {
+  padding-right: 15px;
+  color: #888;
+}
+
+.nav-right p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.nav-right img {
+  margin-left: 10px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 .header-top {
