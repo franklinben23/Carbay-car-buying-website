@@ -23,6 +23,11 @@
   src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
 }
 
+@font-face {
+  font-family: "audiowide";
+  src: url(../fonts/Audiowide-Regular.ttf);
+}
+
 main {
   background-color: #fafafa;
 }
@@ -61,6 +66,122 @@ nav {
   margin-left: 10px;
   padding: 5px 8px 5px 8px;
   border-radius: 5px;
+}
+
+.header-top {
+  height: 250px;
+  background-color: #d35266;
+  font-size: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Medium", san-serif;
+}
+
+.header-top h1 {
+  font-family: "audiowide";
+  font-size: 75px;
+  color: white;
+}
+
+.header-top h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.header-top form {
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.header-top input {
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 5px 2px 5px 2px;
+}
+
+.header-top select {
+  font-size: 14px;
+  padding: 7.3px 2px 7.7px 2px;
+}
+
+.header-top button {
+  font-size: 14px;
+  padding: 5px 2px 5px 2px;
+  background-color: #383838;
+  color: #888;
+  margin-left: 10px;
+  width: 80px;
+}
+
+.header-low {
+  max-width: 943px;
+  margin: auto;
+}
+
+.header-low h3 {
+  color: #888;
+  font-family: "Helvetica Bold", san-serif;
+  font-size: 19px;
+  padding: 20px 0 0 60px;
+}
+
+.header-low-img {
+  padding: 20px;
+}
+
+.header-low-content-title {
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: "Helvetica Bold", san-serif;
+  color: #d35266;
+}
+
+.header-low-content-text {
+  font-size: 14px;
+  font-family: "Helvetica Medium", san-serif;
+  color: #383838;
+  line-height: 18px;
+}
+
+.header-low-btn {
+  margin-top: 20px;
+  font-size: 0;
+  border-radius: 8px;
+  border: #d35266 2px solid;
+  width: 280px;
+  display: flex;
+}
+
+.header-low .price-tag {
+  text-align: center;
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  font-size: 16px;
+  width: 91px;
+  border-right: #9b3b49 solid 1px;
+}
+
+.header-low .info-details {
+  text-align: center;
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  font-size: 16px;
+  width: 189px;
+}
+
+.header-low .header-icons {
+  color: #d35266;
+  border-radius: 100%;
+  padding: 10px 10px;
+  border: #ccc solid 1px;
+  margin: 0 10px;
+  align-self: center;
 }
 
 .section-header {

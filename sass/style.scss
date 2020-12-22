@@ -1,5 +1,6 @@
 @import "utilities";
 @import "fonts";
+@import "mixins";
 main {
   background-color: rgb(250, 250, 250);
 }
@@ -36,6 +37,92 @@ nav {
     margin-left: 10px;
     padding: 5px 8px 5px 8px;
     border-radius: 5px;
+  }
+}
+
+.header-top {
+  height: 250px;
+  background-color: #d35266;
+  font-size: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: $helvetica-m;
+  h1 {
+    font-family: $audiowide;
+    font-size: 75px;
+    color: white;
+  }
+  h3 {
+    color: white;
+    font-size: 35px;
+  }
+  form {
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  input {
+    align-items: center;
+    justify-content: center;
+    @include top-nav;
+  }
+  select {
+    font-size: 14px;
+    padding: 7.3px 2px 7.7px 2px;
+  }
+  button {
+    @include top-nav;
+    background-color: $primary-black;
+    color: $primary-gray;
+    margin-left: 10px;
+    width: 80px;
+  }
+}
+
+.header-low {
+  max-width: 943px;
+  margin: auto;
+  h3 {
+    color: $primary-gray;
+    font-family: $helvetica-b;
+    font-size: 19px;
+    padding: 20px 0 0 60px;
+  }
+  &-img {
+    padding: 20px;
+  }
+  &-content-title {
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: $helvetica-b;
+    color: $main-color;
+  }
+  &-content-text {
+    font-size: 14px;
+    font-family: $helvetica-m;
+    color: $primary-black;
+    line-height: 18px;
+  }
+  &-btn {
+    margin-top: 20px;
+    font-size: 0;
+    border-radius: 8px;
+    border: $main-color 2px solid;
+    width: 280px;
+    display: flex;
+  }
+  .price-tag {
+    @include header-btn;
+    width: 91px;
+    border-right: #9b3b49 solid 1px;
+  }
+  .info-details {
+    @include header-btn;
+    width: 189px;
+  }
+
+  .header-icons {
+    @include deals-icons;
   }
 }
 
