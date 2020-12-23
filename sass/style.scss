@@ -183,7 +183,6 @@ nav {
     font-size: 18px;
     font-family: $helvetica-b;
     color: $primary-gray;
-    font-weight: bold;
   }
 
   .small-words {
@@ -198,6 +197,9 @@ nav {
 .section-cont {
   padding: 0 30px 0 30px;
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
 
   .main-story {
     box-shadow: 0 1px 3px rgba(192, 190, 190, 0.52);
@@ -210,39 +212,41 @@ nav {
     }
 
     &-description {
-      font-size: 21px;
+      font-size: 13px;
       font-family: $gotham-light;
       color: $primary-black;
       padding-left: 10px;
+      height: 114px;
     }
 
     .year {
-      font-size: 16px;
+      font-size: 12px;
       font-family: $gotham-bold;
       color: $main-color;
       padding-left: 10px;
     }
 
     .location {
-      font-size: 16px;
+      font-size: 12px;
       font-family: $helvetica-l;
       color: $primary-gray;
       padding-left: 10px;
     }
 
     .place {
-      font-size: 18px;
+      font-size: 13px;
       font-family: $gotham-bold;
       color: $primary-black;
     }
 
     .plus-sign {
       border: 1px $primary-gray solid;
-      padding: 5px;
-      margin-left: 10px;
+      padding: 3px;
+      margin-left: 6px;
     }
 
     .price {
+      font-size: 12px;
       font-family: $gotham-bold;
       color: $main-color;
       padding-right: 10px;
@@ -264,6 +268,10 @@ footer {
       font-family: $helvetica-m;
       color: $primary-gray;
     }
+  }
+
+  .footer-icons {
+    color: $primary-gray;
   }
 
   .nav-cat {
