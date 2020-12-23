@@ -37,6 +37,21 @@
   .main-story-description {
     height: 186px;
   }
+  .coont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-result-content-title {
+    height: 48px;
+  }
+  .card-result {
+    border-right: #ccc solid 1px;
+    border-left: #ccc solid 1px;
+    padding-right: 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -49,6 +64,9 @@
   }
   .card-result .card-result-img img {
     width: 300px;
+  }
+  .coont {
+    display: block;
   }
 }
 
@@ -73,6 +91,21 @@
   .main-story-description {
     height: 186px;
   }
+  .coont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-result-content-title {
+    height: 48px;
+  }
+  .card-result {
+    border-right: #ccc solid 1px;
+    border-left: #ccc solid 1px;
+    padding-right: 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -85,6 +118,9 @@
   }
   .card-result .card-result-img img {
     width: 300px;
+  }
+  .coont {
+    display: block;
   }
 }
 
@@ -137,6 +173,7 @@ aside .select-group h5 {
 .card-result {
   border-top: #ccc solid 1px;
   border-bottom: #ccc solid 1px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
