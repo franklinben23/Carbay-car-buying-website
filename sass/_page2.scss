@@ -1,0 +1,79 @@
+@import "queries";
+
+.checkbox-item {
+  margin: 10px 0;
+  font-family: $helvetica-l;
+  font-size: 14px;
+  color: $primary-black;
+}
+
+aside {
+  width: 215px;
+  border-right: #ccc 1px solid;
+  padding: 20px 15px;
+  .select-group {
+    padding-left: 10px;
+    font-family: $gotham-light;
+    h5 {
+      padding: 10px 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: normal;
+      color: $primary-black;
+      font-family: $helvetica-b;
+      border-bottom: #ccc 1px solid;
+    }
+  }
+}
+
+.card-result {
+  border-top: #ccc solid 1px;
+  border-bottom: #ccc solid 1px;
+  img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .description {
+    font-size: 13px;
+    font-family: $helvetica-l;
+    color: $primary-gray;
+    text-transform: lowercase;
+  }
+  &-content {
+    &-title {
+      font-size: 16px;
+      font-family: $gotham-light;
+    }
+    .status-tag {
+      font-family: $gotham-bold;
+      color: $main-color;
+      font-size: 15px;
+    }
+    .brand-tags {
+      font-family: $helvetica-l;
+      font-size: 14px;
+      span {
+        font-family: $gotham-light;
+      }
+    }
+    &-btns {
+      .price-btn {
+        // text-align: center;
+        color: #fff;
+        background-color: #d35266;
+        padding: 5px;
+        font-family: "Helvetica Medium", san-serif;
+        width: 80px;
+        border-right: #9b3b49 solid 1px;
+        margin-left: 5px;
+        width: 50%;
+        border-radius: 10px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

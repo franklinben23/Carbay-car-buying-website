@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your search results</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="d-flex justify-content-between">
+      <div class="nav-left d-flex">
+        <div class="nav-logo-cont">
+          <img src="./images/carr-logo.png" alt="car-logo" />
+        </div>
+
+        <div
+          class="other-nav-items d-flex align-self-center justify-content-between"
+        >
+          <a href="#" class="link-highlight">
+            <i class="fa fa-home" aria-hidden="true"></i> Home
+          </a>
+          <a href="#">
+            <i class="fa fa-hashtag" aria-hidden="true"></i> Collections
+          </a>
+          <a href="#">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase List
+          </a>
+          <a href="#" class="d-none d-md-block nav-bottom"> Post an AD </a>
+        </div>
+      </div>
+
+      <div class="nav-right d-none d-lg-flex align-items-center">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <p>Moe Lester</p>
+        <img src="./images/user.jpg" alt="img" />
+      </div>
+    </nav>
+
+    <header class="d-none d-md-block">
+      <div class="header-top d-flex flex-column">
+        <h1>Carbay</h1>
+        <h3>Car Buying, Made easier</h3>
+
+        <form action="#">
+          <select name="Vehicle type" id="vehicle-type">
+            <option value="Vehicle-type">Vehicle type</option>
+            <option value="Cars">Cars</option>
+            <option value="SUVs">SUVs</option>
+            <option value="PickUps">PickUp Trucks</option>
+            <option value="accessories">Accessories</option>
+          </select>
+
+          <input type="text" placeholder="Any Particular Brand?" />
+          <input
+            type="text"
+            placeholder="What are you looking for?"
+            size="40"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <div class="page-2-cont d-flex">
+        <aside class="d-none d-md-block">
+          <div class="select-group">
+            <h5>Brands</h5>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Ferrari</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Buggatti</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Koenigsegg</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>pagani</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Mercedes-Benz</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Rimac</span>
+            </div>
+          </div>
+
+          <div class="select-group">
+            <h5>Drivetrain</h5>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Petrol</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Diesel</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Hybrid</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Electric</span>
+            </div>
+          </div>
+
+          <div class="select-group">
+            <h5>Status</h5>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>New</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Used</span>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" name="check" id="#" />
+              <span>Build place</span>
+            </div>
+          </div>
+        </aside>
+        <div class="results-cont d-flex flex-column">
+          <div class="results-header">Your search returned five items</div>
+          <div class="card-result d-flex flex-column flex-md-row">
+            <div class="card-result-img">
+              <img src="./images/suv/chiron.jpg" alt="img" />
+            </div>
+            <div class="card-result-content">
+              <div class="card-result-content-title">
+                Bugatti Chiron Sport 110 ans - delivery miles
+              </div>
+              <div class="status-tag">New</div>
+              <div class="description">
+                This offer is an exceedingly rare, special, or off-market
+                vehicle. For discretion and to protect the privacy of our
+                sellers and the exclusiveness of the vehicle the presentation
+                contains only a few original or placeholder pictures and
+                information.
+              </div>
+              <div class="brand-tags d-flex">
+                <div class="brand">Make:</div>
+                <span>Bugatti</span>
+              </div>
+              <div class="card-result-content-btns d-flex">
+                <a href="#" class="price-btn"> $3,220,000 </a>
+                <a href="#" class="price-btn 2-btn d-flex">
+                  <i class="fa fa-id-card" aria-hidden="true"></i>
+                  <p>Kiaraluxem</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-cont d-md-flex">
+        <div class="top-content d-flex flex-column">
+          <img
+            src="./images/carr-logo.png"
+            width="75px"
+            class="d-block align-self-center"
+            alt="car-logo"
+          />
+          <div class="top-content-text align-self-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            explicabo eligendi iure in, sunt nemo delectus dolorem, sit veniam
+            odit quis ex aut labore ipsa molestiae dolor assumenda voluptas,
+            tenetur vero vitae illum repellendus ea saepe? Quis nulla,
+            voluptatum repellendus animi eaque, culpa a ex itaque aliquam atque
+            ullam aliquid?
+          </div>
+        </div>
+
+        <div class="nav-cat d-flex m-auto justify-content-between">
+          <div class="nav p-2">
+            <ul>
+              <li><div class="footer-sub">Navigation</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Sign In</a></li>
+              <li><a href="#"> Sign Up</a></li>
+              <li><a href="#"> Terms & Conditions</a></li>
+              <li><a href="#"> FAQ</a></li>
+              <li><a href="#"> Help</a></li>
+            </ul>
+          </div>
+
+          <div class="cat p-2">
+            <ul>
+              <li><div class="footer-sub">Categories</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Cars</a></li>
+              <li><a href="#"> Suv's</a></li>
+              <li><a href="#"> PickUps</a></li>
+              <li><a href="#"> Watercrafts</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lower-select d-flex flex-column">
+          <div class="country p-2">
+            Country <a href="#" class="white-btn"> U.S.</a>
+          </div>
+          <div class="country p-2">
+            Language <a href="#" class="white-btn"> English</a>
+          </div>
+          <div class="country p-2">
+            Currency <a href="#" class="white-btn"> U.S Dollars</a>
+          </div>
+        </div>
+      </div>
+      <div class="lowest">
+        <p>
+          Copyright© 2015 Ampert.com. All Rights Reserved. Designed by Mohammed
+          Awad
+        </p>
+        <div class="d-none footer-icons">
+          <i class="fa fa-yahoo" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

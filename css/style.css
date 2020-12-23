@@ -43,12 +43,144 @@
   .section-cont {
     grid-template-columns: repeat(3, 1fr);
   }
+  .card-result-content {
+    padding-top: 10px;
+    max-width: 665px;
+  }
+  .card-result .card-result-img img {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .section-cont {
     grid-template-columns: repeat(4, 1fr);
   }
+  .card-result-content {
+    max-width: 665px;
+  }
+  .card-result .card-result-img img {
+    width: 360px;
+  }
+}
+
+@media only screen and (min-width: 530px) {
+  .section-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+  .main-story-description {
+    height: 186px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-cont {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-result-content {
+    padding-top: 10px;
+    max-width: 665px;
+  }
+  .card-result .card-result-img img {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-cont {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card-result-content {
+    max-width: 665px;
+  }
+  .card-result .card-result-img img {
+    width: 360px;
+  }
+}
+
+.checkbox-item {
+  margin: 10px 0;
+  font-family: "Helvetica Light", san-serif;
+  font-size: 14px;
+  color: #383838;
+}
+
+aside {
+  width: 215px;
+  border-right: #ccc 1px solid;
+  padding: 20px 15px;
+}
+
+aside .select-group {
+  padding-left: 10px;
+  font-family: "Gotham Rounded Light", san-serif;
+}
+
+aside .select-group h5 {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #383838;
+  font-family: "Helvetica Bold", san-serif;
+  border-bottom: #ccc 1px solid;
+}
+
+.card-result {
+  border-top: #ccc solid 1px;
+  border-bottom: #ccc solid 1px;
+}
+
+.card-result img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-result .description {
+  font-size: 13px;
+  font-family: "Helvetica Light", san-serif;
+  color: #888;
+  text-transform: lowercase;
+}
+
+.card-result-content-title {
+  font-size: 16px;
+  font-family: "Gotham Rounded Light", san-serif;
+}
+
+.card-result-content .status-tag {
+  font-family: "Gotham Bold", san-serif;
+  color: #d35266;
+  font-size: 15px;
+}
+
+.card-result-content .brand-tags {
+  font-family: "Helvetica Light", san-serif;
+  font-size: 14px;
+}
+
+.card-result-content .brand-tags span {
+  font-family: "Gotham Rounded Light", san-serif;
+}
+
+.card-result-content-btns .price-btn {
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  width: 80px;
+  border-right: #9b3b49 solid 1px;
+  margin-left: 5px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.card-result-content-btns p {
+  margin: 0;
 }
 
 main {
@@ -344,6 +476,10 @@ footer .nav-cat a {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #888;
+}
+
+footer .nav-cat .cat {
+  margin-left: 20px;
 }
 
 footer .lower-select {
