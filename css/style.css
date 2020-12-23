@@ -195,6 +195,10 @@ aside .select-group h5 {
   margin: 0;
 }
 
+.car-logo-total {
+  width: 75px;
+}
+
 main {
   background-color: #fafafa;
 }
@@ -491,7 +495,7 @@ footer .nav-cat a {
 }
 
 footer .nav-cat .cat {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 footer .lower-select {
