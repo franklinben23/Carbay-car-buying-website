@@ -2,6 +2,8 @@
 
 # Capstone Project: HTML & CSS
 
+![Screenshot_2020-12-23 Carbay car buying, made easier](https://user-images.githubusercontent.com/68623189/103032603-d50ece80-4536-11eb-9405-40faac3c8173.jpg)
+
 > This is a capstone project for the HTML and CSS section of the Technical Skills Curriculum.
 
 A capstone project is the closing project that students will solo-perform. Its goal is to assess the student's technical and professional skills from the course that it is closing. For this project, the student should develop a concept, responsive, mobile-first web page.
