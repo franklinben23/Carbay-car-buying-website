@@ -183,7 +183,6 @@ aside .select-group h5 {
   background-color: #d35266;
   padding: 5px;
   font-family: "Helvetica Medium", san-serif;
-  width: 80px;
   border-right: #9b3b49 solid 1px;
   margin-left: 5px;
   width: 50%;
@@ -449,7 +448,6 @@ nav {
 
 .section-cont .main-story .price {
   font-family: "Gotham Bold", san-serif;
-  font-family: 18px;
   color: #d35266;
   padding-right: 10px;
 }

@@ -16,11 +16,13 @@
   .section-cont {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .card-result {
     &-content {
       padding-top: 10px;
       max-width: 665px;
     }
+
     .card-result-img {
       img {
         width: 300px;
@@ -33,10 +35,12 @@
   .section-cont {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .card-result {
     &-content {
       max-width: 665px;
     }
+
     .card-result-img {
       img {
         width: 360px;
