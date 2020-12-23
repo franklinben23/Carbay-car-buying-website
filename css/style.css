@@ -128,9 +128,16 @@ aside .select-group h5 {
   border-bottom: #ccc 1px solid;
 }
 
+.results-header {
+  font-weight: "Gotham Bold", san-serif;
+  font-size: 18px;
+  padding: 20px 0 20px 10px;
+}
+
 .card-result {
   border-top: #ccc solid 1px;
   border-bottom: #ccc solid 1px;
+  margin-bottom: 20px;
 }
 
 .card-result img {
@@ -145,22 +152,26 @@ aside .select-group h5 {
   font-family: "Helvetica Light", san-serif;
   color: #888;
   text-transform: lowercase;
+  padding-left: 10px;
 }
 
 .card-result-content-title {
   font-size: 16px;
   font-family: "Gotham Rounded Light", san-serif;
+  padding-left: 10px;
 }
 
 .card-result-content .status-tag {
   font-family: "Gotham Bold", san-serif;
   color: #d35266;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .card-result-content .brand-tags {
   font-family: "Helvetica Light", san-serif;
   font-size: 14px;
+  padding-left: 10px;
 }
 
 .card-result-content .brand-tags span {
@@ -177,6 +188,7 @@ aside .select-group h5 {
   margin-left: 5px;
   width: 50%;
   border-radius: 10px;
+  align-items: center;
 }
 
 .card-result-content-btns p {

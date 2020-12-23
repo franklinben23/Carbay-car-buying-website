@@ -26,9 +26,16 @@ aside {
   }
 }
 
+.results-header {
+  font-weight: $gotham-bold;
+  font-size: 18px;
+  padding: 20px 0 20px 10px;
+}
+
 .card-result {
   border-top: #ccc solid 1px;
   border-bottom: #ccc solid 1px;
+  margin-bottom: 20px;
   img {
     width: 100%;
     margin-top: 10px;
@@ -40,27 +47,30 @@ aside {
     font-family: $helvetica-l;
     color: $primary-gray;
     text-transform: lowercase;
+    padding-left: 10px;
   }
   &-content {
     &-title {
       font-size: 16px;
       font-family: $gotham-light;
+      padding-left: 10px;
     }
     .status-tag {
       font-family: $gotham-bold;
       color: $main-color;
       font-size: 15px;
+      padding-left: 10px;
     }
     .brand-tags {
       font-family: $helvetica-l;
       font-size: 14px;
+      padding-left: 10px;
       span {
         font-family: $gotham-light;
       }
     }
     &-btns {
       .price-btn {
-        // text-align: center;
         color: #fff;
         background-color: #d35266;
         padding: 5px;
@@ -70,6 +80,7 @@ aside {
         margin-left: 5px;
         width: 50%;
         border-radius: 10px;
+        align-items: center;
       }
       p {
         margin: 0;
