@@ -3,6 +3,7 @@
 @import "mixins";
 @import "queries";
 @import "page2";
+
 .car-logo-total {
   width: 75px;
 }
@@ -92,6 +93,7 @@ nav {
   input {
     align-items: center;
     justify-content: center;
+
     @include top-nav;
   }
 
@@ -102,6 +104,7 @@ nav {
 
   button {
     @include top-nav;
+
     background-color: $primary-black;
     color: $primary-gray;
     margin-left: 10px;
@@ -149,12 +152,14 @@ nav {
 
   .price-tag {
     @include header-btn;
+
     width: 91px;
     border-right: #9b3b49 solid 1px;
   }
 
   .info-details {
     @include header-btn;
+
     width: 189px;
   }
 
