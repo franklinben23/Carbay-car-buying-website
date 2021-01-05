@@ -1,0 +1,22 @@
+@mixin top-nav {
+  font-size: 14px;
+  padding: 5px 2px 5px 2px;
+}
+
+@mixin header-btn {
+  text-align: center;
+  color: #fff;
+  background-color: $main-color;
+  padding: 5px;
+  font-family: $helvetica-m;
+  font-size: 16px;
+}
+
+@mixin deals-icons {
+  color: $main-color;
+  border-radius: 100%;
+  padding: 10px 10px;
+  border: #ccc solid 1px;
+  margin: 0 10px;
+  align-self: center;
+}

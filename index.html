@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbay. car buying, made easier</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="d-flex justify-content-between justify-content-md-center justify-content-lg-between"
+    >
+      <div class="nav-left d-flex">
+        <div class="nav-logo-cont">
+          <img src="./images/carr-logo.png" alt="car-logo" />
+        </div>
+
+        <div
+          class="other-nav-items d-flex align-self-center justify-content-between"
+        >
+          <a href="#" class="link-highlight">
+            <i class="fa fa-home" aria-hidden="true"></i> Home
+          </a>
+          <a href="#">
+            <i class="fa fa-hashtag" aria-hidden="true"></i> Collections
+          </a>
+          <a href="#">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase List
+          </a>
+          <a href="#" class="d-none d-md-block nav-bottom"> Post an AD </a>
+        </div>
+      </div>
+
+      <div class="nav-right d-none d-lg-flex align-items-center">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <p>Moe Lester</p>
+        <img src="./images/user.jpg" alt="img" />
+      </div>
+    </nav>
+
+    <header class="d-none d-md-block">
+      <div class="header-top d-flex flex-column">
+        <h1>Carbay</h1>
+        <h3>Car Buying, Made easier</h3>
+
+        <form action="./link.html">
+          <select name="Vehicle type" id="vehicle-type">
+            <option value="Vehicle-type">Vehicle type</option>
+            <option value="Cars">Cars</option>
+            <option value="SUVs">SUVs</option>
+            <option value="PickUps">PickUp Trucks</option>
+            <option value="accessories">Accessories</option>
+          </select>
+
+          <input type="text" placeholder="Any Particular Brand?" />
+          <input
+            type="text"
+            placeholder="What are you looking for?"
+            size="40"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+
+      <div class="header-low">
+        <div>
+          <h3>OFFERS</h3>
+        </div>
+        <div class="header-low-cont d-flex">
+          <div class="header-icons">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+          <div class="header-low-img">
+            <img src="./images/suv/chiron.jpg" alt="chiron-img" />
+          </div>
+          <div class="header-low-content d-flex flex-column">
+            <div class="header-low-content-title">
+              Bugatti Chiron Sport 110 ans - delivery miles
+            </div>
+            <div class="header-low-content-text">
+              This offer is an exceedingly rare, special, or off-market vehicle.
+              For discretion and to protect the privacy of our sellers and the
+              exclusiveness of the vehicle the presentation contains only a few
+              original or placeholder pictures and information. Should you
+              require more information and original picture material, please
+              contact us with your full contact details and a proof of your
+              identity.
+            </div>
+            <div class="header-low-btn">
+              <span class="price-tag d-inline">$3,220,000</span>
+              <span class="info-details d-inline">
+                <i class="fa fa-id-card-o" aria-hidden="true"></i> Contact
+                Details</span
+              >
+            </div>
+          </div>
+          <div class="header-icons">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-header">
+          <img src="./images/png/006-car.png" alt="car-logo" />
+          <h3 class="big-words d-inline">Cars</h3>
+          <h4 class="small-words d-inline">(coupes, hatchbacks, sedans)</h4>
+        </div>
+        <div class="section-cont">
+          <div class="main-story">
+            <img src="./images/cars/alfa-romeo-4c.jpg" alt="img" />
+            <div class="main-story-description">
+              alfa romeo 4c, turbo. One Owner, Garage kept
+            </div>
+            <div class="year">2018</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Lousiana</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$62,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/cars/Bmwm4.jpg" alt="m4-img" />
+            <div class="main-story-description">
+              2015 BMW m4, six cilinder manual, well kept and never abused.
+            </div>
+            <div class="year">2015</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Idaho</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$40,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/cars/cayman.jpg" alt="img" />
+            <div class="main-story-description">
+              Porsche cayman 2014, white, gt edition, one owner and less than
+              10,000 miles!
+            </div>
+            <div class="year">2014</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Maine</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$52,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/cars/challenger.jpg" alt="img" />
+            <div class="main-story-description">
+              Dodge challenger R/T, over 13,000 in packages, very rare green
+              color option.
+            </div>
+            <div class="year">2017</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Florida</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$33,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/cars/corvette.jpg" alt="img" />
+            <div class="main-story-description">
+              2009 Chevrolet Corvette Z06 Watch Just 33,500 Miles, Some
+              Modifications, Quicksilver Metallic
+            </div>
+            <div class="year">2009</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Georgia</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$24,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/cars/golf.jpg" alt="img" />
+            <div class="main-story-description">
+              2018 Volkswagen Golf R 6-Speed Manual, Florida-Kept Since New,
+              Some Modifications
+            </div>
+            <div class="year">2018</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Oregon</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">30,000.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <img src="./images/png/008-crossover.png" alt="car-logo" />
+          <h3 class="big-words d-inline">Sport Utilitarian Vehicles</h3>
+          <h4 class="small-words d-inline">(SUVs)</h4>
+        </div>
+        <div class="section-cont">
+          <div class="main-story">
+            <img src="./images/suv/defender.jpg" alt="img" />
+            <div class="main-story-description">
+              New Land Rover Defender! six cilinder p400 Hybrid, Highly
+              requested vehicle.
+            </div>
+            <div class="year">2021</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Los Angeles</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$92,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/suv/g500.jpg" alt="g500-img" />
+            <div class="main-story-description">
+              2-door Mercedes G-wagen, Perfectly mantained especimen of a very
+              sought after and rare vehicle.
+            </div>
+            <div class="year">2008</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Los Angeles</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$170,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/suv/jeep.jpg" alt="img" />
+            <div class="main-story-description">
+              Jeep Wranglker rubicon with Off-Road enhancements and Tasteful
+              cosmetic mods.
+            </div>
+            <div class="year">2016</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Florida</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$27,500.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/suv/landcruiser.jpg" alt="img" />
+            <div class="main-story-description">
+              90 series Land Cruiser, a legend known for reliability and
+              ruggedness, nannied example.
+            </div>
+            <div class="year">1998</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Texas</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$18,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/suv/macan.jpg" alt="img" />
+            <div class="main-story-description">
+              porsche macan turbo S, great example with very few miles, fair
+              pricing.
+            </div>
+            <div class="year">2018</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Nevada</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$64,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/suv/teslax2.jpg" alt="img" />
+            <div class="main-story-description">
+              Tesla model X 100p, Performance model with Gullwing doors, full
+              battery life and on extended full warranty
+            </div>
+            <div class="year">2019</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">New Mexico</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">89,900.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <img src="./images/png/024-pickup-truck.png" alt="car-logo" />
+          <h3 class="big-words d-inline">PickUp trucks</h3>
+          <h4 class="small-words d-inline">(Work, Sport, Diesels)</h4>
+        </div>
+        <div class="section-cont">
+          <div class="main-story">
+            <img src="./images/pickup/chevy.jpg" alt="img" />
+            <div class="main-story-description">
+              Brand New chevy Silverado Pickup truck, Available for order now,
+              at Ohio Chevy.
+            </div>
+            <div class="year">2021</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Ohio</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">from $29,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/pickup/r2.jpg" alt="g500-img" />
+            <div class="main-story-description">
+              New Ram pickup trucks! Luxury combines with reliability. Ready for
+              order at TexasRam!!
+            </div>
+            <div class="year">2021+</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Texas</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">From 33,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/pickup/ram2.jpg" alt="img" />
+            <div class="main-story-description">
+              Dodge Ram worktruck, with the reliability you know, more rugged
+              than ever!
+            </div>
+            <div class="year">2021</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Florida</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$22,000.00</p>
+            </div>
+          </div>
+
+          <div class="main-story">
+            <img src="./images/pickup/r3.jpg" alt="img" />
+            <div class="main-story-description">
+              Ford Raptors!!! The off-Road monster you've come to love, at a
+              novel discounted price!
+            </div>
+            <div class="year">up to 2020</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Colorado</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">P.O.R.</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/pickup/t2.jpg" alt="img" />
+            <div class="main-story-description">
+              Toyota Tacoma 2020, Trd's pro and Platinum specials, gas and
+              diesel options.
+            </div>
+            <div class="year">2020</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">Nevada</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">$30,300.00</p>
+            </div>
+          </div>
+
+          <div class="main-story d-lg-none">
+            <img src="./images/pickup/x.jpg" alt="img" />
+            <div class="main-story-description">
+              Mercedes-Benz x-class 2019, very late model packed with luxury
+              option and more goodies!
+            </div>
+            <div class="year">2019</div>
+            <div class="location">
+              location:
+              <p class="place d-inline">New York</p>
+            </div>
+            <div class="lower-items d-flex justify-content-between">
+              <p class="plus-sign">+</p>
+              <p class="price">79,900.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-cont d-md-flex">
+        <div class="top-content d-flex flex-column">
+          <img
+            src="./images/carr-logo.png"
+            class="d-block align-self-center car-logo-total"
+            alt="car-logo"
+          />
+          <div class="top-content-text align-self-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            explicabo eligendi iure in, sunt nemo delectus dolorem, sit veniam
+            odit quis ex aut labore ipsa molestiae dolor assumenda voluptas,
+            tenetur vero vitae illum repellendus ea saepe? Quis nulla,
+            voluptatum repellendus animi eaque, culpa a ex itaque aliquam atque
+            ullam aliquid?
+          </div>
+        </div>
+
+        <div class="nav-cat d-flex m-auto justify-content-between">
+          <div class="nav p-2">
+            <ul>
+              <li><div class="footer-sub">Navigation</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Sign In</a></li>
+              <li><a href="#"> Sign Up</a></li>
+              <li><a href="#"> Terms & Conditions</a></li>
+              <li><a href="#"> FAQ</a></li>
+              <li><a href="#"> Help</a></li>
+            </ul>
+          </div>
+
+          <div class="cat p-2">
+            <ul>
+              <li><div class="footer-sub">Categories</div></li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Cars</a></li>
+              <li><a href="#"> Suv's</a></li>
+              <li><a href="#"> PickUps</a></li>
+              <li><a href="#"> Watercrafts</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lower-select d-flex flex-column">
+          <div class="country p-2">
+            Country <a href="#" class="white-btn"> U.S.</a>
+          </div>
+          <div class="country p-2">
+            Language <a href="#" class="white-btn"> English</a>
+          </div>
+          <div class="country p-2">
+            Currency <a href="#" class="white-btn"> U.S Dollars</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lowest d-flex flex-column flex-lg-row justify-content-between align-items-center"
+      >
+        <p class="d-block">
+          Copyright© 2015 Ampert.com. All Rights Reserved. Designed by Mohammed
+          Awad
+        </p>
+        <div class="d-flex footer-icons">
+          <i class="fa fa-yahoo p-2" aria-hidden="true"></i>
+          <i class="fa fa-google-plus p-2" aria-hidden="true"></i>
+          <i class="fa fa-linkedin p-2" aria-hidden="true"></i>
+          <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+          <i class="fa fa-facebook-official p-2" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
